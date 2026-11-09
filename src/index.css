@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+@import '@fontsource/geist-sans/400.css';
+@import '@fontsource/geist-sans/500.css';
+@import '@fontsource/geist-sans/600.css';
+@import './styles/stealth.css';
+
+:root {
+  --font-geist-sans: 'Geist Sans', ui-sans-serif, system-ui, sans-serif;
+  /* Supplied pastels: blush, pink, petal, lilac, and deep lilac. */
+  --blush: #fcd6f9;
+  --blush-2: #ffc6fe;
+  --petal: #f6b2ff;
+  --lilac: #ceafff;
+  --lilac-deep: #c19bff;
+  /* Dusty plum from the same family, dark enough for white label text. */
+  --accent: #4c356f;
+  --accent-hover: #3d295c;
+  --accent-soft: #f6b2ff;
+}
+
+/* Soft pink and lavender surfaces. Text, progress, and status use darker plum. */
+[data-theme='light'] {
+  --page: #fdf6fc;
+  --frame: #fcd6f9;
+  --raised: #ffffff;
+  --hover: #ffc6fe;
+  --line: #c19bff;
+  --line-2: #9272c5;
+  --fg: #2a1838;
+  --fg-2: #3c2852;
+  --fg-3: #513968;
+  --fg-4: #64507a;
+  --info: #4c356f;
+  --info-soft: #fcd6f9;
+  --success: #4c356f;
+  --success-soft: #f6b2ff;
+  --warning: #8a4b08;
+  --warning-soft: #ffedd5;
+  --danger: #9f1239;
+  --danger-soft: #fde2ea;
+  --shadow: 0 1px 0 rgba(255, 255, 255, 0.9) inset, 0 14px 32px -18px rgba(76, 53, 111, 0.28);
+  --overlay: rgba(42, 24, 56, 0.4);
+}
+
+html[data-theme='light'] body {
+  background:
+    radial-gradient(920px 440px at 108% -12%, rgba(246, 178, 255, 0.55), transparent 58%),
+    radial-gradient(760px 420px at -12% -8%, rgba(206, 175, 255, 0.55), transparent 54%),
+    radial-gradient(680px 360px at 72% 108%, rgba(255, 198, 254, 0.65), transparent 52%),
+    var(--page);
+}
