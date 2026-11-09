@@ -25,12 +25,12 @@ export type FlatPage = {
 
 export async function imageToSinglePagePdf(png: Uint8Array, widthPt: number, heightPt: number): Promise<Uint8Array> {
   const doc = await PDFDocument.create()
-  doc.setTitle('SASHecg')
+  doc.setTitle('Redactly')
   doc.setAuthor('')
   doc.setSubject('Page anonymized locally')
   doc.setKeywords([])
-  doc.setProducer('SASHecg')
-  doc.setCreator('SASHecg')
+  doc.setProducer('Redactly')
+  doc.setCreator('Redactly')
   const image = await doc.embedPng(png)
   const page = doc.addPage([widthPt, heightPt])
   page.drawImage(image, { x: 0, y: 0, width: widthPt, height: heightPt })

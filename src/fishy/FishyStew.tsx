@@ -27,7 +27,7 @@ export function FishyStew({ onBack }: { onBack: () => void }) {
 
   return (
     <main className="fishy-page mx-auto flex min-h-dvh max-w-lg flex-col items-center justify-center gap-5 px-4 py-8 text-center text-fg">
-      <p className="text-[12px] font-medium tracking-[0.14em] text-[var(--accent)] uppercase">SASHecg</p>
+      <p className="text-[12px] font-medium tracking-[0.14em] text-[var(--accent)] uppercase">Redactly</p>
       <h1 className="text-2xl font-medium tracking-[-0.03em]">{phase === 'stew' ? 'Fish stew' : 'Fishy'}</h1>
       <div className="relative grid place-items-center">
         <img

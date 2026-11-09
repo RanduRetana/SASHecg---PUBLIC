@@ -32,5 +32,5 @@ test('batch names keep the source stem and disambiguate duplicates', () => {
   expect(plan[2]?.disambiguated).toBe(false)
   expect(new Set(plan.flatMap((file) => file.names)).size).toBe(6)
   expect(batchZipName(['ward.pdf'])).toBe('ward-anonymized.zip')
-  expect(batchZipName(['a.pdf', 'b.pdf'])).toBe('sash-ecg-anonymized.zip')
+  expect(batchZipName(['a.pdf', 'b.pdf'])).toBe('redactly-anonymized.zip')
 })

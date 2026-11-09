@@ -1,6 +1,6 @@
-# SASHecg
+# Redactly
 
-SASHecg anonymizes batches of ECG report pages directly in your browser. Mark the areas that contain patient details once, apply them to every page, and download a ZIP with one anonymized PDF per page.
+Redactly anonymizes batches of PDF pages, such as ECG reports, directly in your browser. Mark the areas that contain patient details once, apply them to every page, and download a ZIP with one anonymized PDF per page.
 
 **Your files never leave your computer.** There is no server that receives files, no accounts, no database, and no analytics. All processing runs in the browser tab, using your own computer’s processor and memory.
 
@@ -22,7 +22,7 @@ Everything below happens locally in the browser:
 3. [pdf-lib](https://pdf-lib.js.org/) saves each page as a new PDF containing only that flattened image. The original text layer and metadata are not copied.
 4. [fflate](https://github.com/101arrowz/fflate) packs the pages into a ZIP for download.
 
-Closing or reloading the tab clears everything SASHecg was holding in memory.
+Closing or reloading the tab clears everything Redactly was holding in memory.
 
 ## Good to know
 

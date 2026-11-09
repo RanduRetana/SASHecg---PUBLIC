@@ -34,7 +34,7 @@ export default function App() {
 
         <div className="mx-auto grid max-w-6xl gap-4 px-4 py-4">
           <Callout tone="info" title="Processed in this browser">
-            SASHecg has no server and does not upload the PDF. Processing stays in this tab. A file you download remains
+            Redactly has no server and does not upload the PDF. Processing stays in this tab. A file you download remains
             in the browser’s download folder until you delete it.
           </Callout>
 
@@ -54,7 +54,7 @@ export default function App() {
         </div>
 
         <footer className="mx-auto max-w-6xl px-4 pb-8 text-[12px] text-fg-3">
-          SASHecg covers only the rectangles you mark. It does not look for other details that remain visible on the page.
+          Redactly covers only the rectangles you mark. It does not look for other details that remain visible on the page.
         </footer>
 
         <div className="sr-only" aria-live="polite">

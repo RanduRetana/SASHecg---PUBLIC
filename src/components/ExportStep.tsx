@@ -93,7 +93,7 @@ export function ExportStep({ session }: { session: Session }) {
       )}
 
       <Callout tone="info" title="Privacy">
-        The ZIP is built in this browser. SASHecg does not upload it. The downloaded file stays in your downloads
+        The ZIP is built in this browser. Redactly does not upload it. The downloaded file stays in your downloads
         folder. Reloading this tab drops the copy held here, including the password. Page names still include the
         source file name.
       </Callout>

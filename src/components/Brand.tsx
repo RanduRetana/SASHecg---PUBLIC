@@ -14,8 +14,8 @@ export function Brand() {
         </svg>
       </span>
       <span className="min-w-0">
-        <span className="block text-[15px] font-medium tracking-[-0.03em] text-fg">SASHecg</span>
-        <span className="block truncate text-[11px] text-fg-3">Local ECG report anonymizer</span>
+        <span className="block text-[19px] leading-none font-extrabold tracking-[-0.04em] text-fg" style={{ fontFamily: "'Bricolage Grotesque Variable', ui-sans-serif, system-ui, sans-serif" }}>Redactly</span>
+        <span className="block truncate text-[11px] text-fg-3">Private, local PDF anonymizer</span>
       </span>
     </div>
   )

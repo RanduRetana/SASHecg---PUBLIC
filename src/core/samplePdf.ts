@@ -191,7 +191,7 @@ const COLUMNS = [
 export async function createSamplePdf(): Promise<Uint8Array> {
   const doc = await PDFDocument.create()
   doc.setTitle('Synthetic practice report')
-  doc.setAuthor('SASHecg')
+  doc.setAuthor('Redactly')
   doc.setSubject('Invented data for redaction practice')
   const font = await doc.embedFont(StandardFonts.Helvetica)
   const bold = await doc.embedFont(StandardFonts.HelveticaBold)

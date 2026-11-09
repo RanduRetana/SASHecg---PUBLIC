@@ -1,5 +1,5 @@
 {
-  "name": "sash-ecg",
+  "name": "redactly",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
     "@number-flow/react": "^0.6.2",
     "fflate": "^0.8.3",
     "motion": "^14.9.1",

@@ -116,7 +116,7 @@ test('mixed sizes and a rotation drop the text and keep the visual page', async 
     expect(new TextDecoder('latin1').decode(bytes).includes('PHI-SECRETO-XYZ')).toBe(false)
     const loaded = await PDFDocument.load(bytes)
     expect(loaded.getPageCount()).toBe(1)
-    expect(loaded.getTitle()).toBe('SASHecg')
+    expect(loaded.getTitle()).toBe('Redactly')
     expect(loaded.getAuthor() ?? '').not.toContain('Secreto')
     const size = loaded.getPage(0).getSize()
     expect(size.width).toBeCloseTo(expected[index]?.[0] ?? 0, 0)

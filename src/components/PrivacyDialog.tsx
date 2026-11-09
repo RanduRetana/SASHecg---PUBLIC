@@ -15,7 +15,7 @@ export function PrivacyDialog() {
         <DialogHeader>
           <DialogTitle>How it works</DialogTitle>
           <DialogDescription>
-            Your PDFs never leave your computer. SASHecg does all the work inside this browser tab, using your own
+            Your PDFs never leave your computer. Redactly does all the work inside this browser tab, using your own
             computer’s processor and memory.
           </DialogDescription>
         </DialogHeader>
@@ -23,13 +23,13 @@ export function PrivacyDialog() {
           <section className="grid gap-1">
             <h3 className="text-[13px] font-medium text-fg">Your files stay with you</h3>
             <p>
-              When you open a PDF, the browser reads it locally. SASHecg has no server that receives files, no accounts,
+              When you open a PDF, the browser reads it locally. Redactly has no server that receives files, no accounts,
               no database, and no analytics. The PDF, its password, and the processed pages are not uploaded or stored
               anywhere by this app. The website only delivers the app itself; after that, everything happens on your
               machine.
             </p>
             <p>
-              Closing or reloading the tab clears everything SASHecg was holding. The ZIP you download is saved only to
+              Closing or reloading the tab clears everything Redactly was holding. The ZIP you download is saved only to
               your own downloads folder. Because the work happens on your computer, a slower or busy machine will take
               longer. A current Chrome, Edge, Firefox, or Safari works best.
             </p>
@@ -37,7 +37,7 @@ export function PrivacyDialog() {
           <section className="grid gap-1">
             <h3 className="text-[13px] font-medium text-fg">What happens to each page</h3>
             <p>
-              SASHecg uses well-known open-source libraries, all running in your browser: PDF.js (from Mozilla) draws
+              Redactly uses well-known open-source libraries, all running in your browser: PDF.js (from Mozilla) draws
               each page as an image, the areas you marked are painted over with solid blocks, pdf-lib saves each page as
               a new PDF containing only that image, and fflate packs them into a ZIP.
             </p>
@@ -53,7 +53,7 @@ export function PrivacyDialog() {
               A study code is optional. When you turn it on, you type one code and it is added on top of the covered
               area on every page of every PDF in the current batch. Opening new files, or choosing New file, clears the
               code and turns the option off, so the next code (for example 8805-002 after 8805-001) has to be typed
-              again. SASHecg keeps the code exactly as typed, including leading zeros.
+              again. Redactly keeps the code exactly as typed, including leading zeros.
             </p>
           </section>
           <section className="grid gap-1">

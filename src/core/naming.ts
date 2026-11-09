@@ -58,7 +58,7 @@ export function planOutputNames(files: { name: string; pageCount: number }[]): N
 
 export function batchZipName(fileNames: string[]): string {
   if (fileNames.length === 1) return zipFileName(fileNames[0] ?? 'report.pdf')
-  return 'sash-ecg-anonymized.zip'
+  return 'redactly-anonymized.zip'
 }
 
 export function zipFileName(originalName: string): string {

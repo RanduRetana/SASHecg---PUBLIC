@@ -44,7 +44,7 @@ test('a flattened page drops the text and metadata and covers the marked pixels'
 
   const packed = await PDFDocument.load(page.pdfBytes)
   expect(packed.getPageCount()).toBe(1)
-  expect(packed.getTitle()).toBe('SASHecg')
+  expect(packed.getTitle()).toBe('Redactly')
   expect(packed.getAuthor() ?? '').toBe('')
   expect(packed.getPage(0).getSize().width).toBeCloseTo(240, 0)
   expect(packed.getPage(0).getSize().height).toBeCloseTo(320, 0)
